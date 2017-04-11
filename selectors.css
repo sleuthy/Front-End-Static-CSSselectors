@@ -1,0 +1,71 @@
+.top {
+	border: 1px dotted tomato;
+}
+
+.navlinks {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 25px;
+	text-align: center;
+	text-decoration: none;
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navlinks li {
+	padding: 30px;
+}
+
+.disabled {
+	color: grey;
+}
+
+.disabled a {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.redtext {
+	color: red;
+}
+
+.bluetext {
+	color: blue;
+}
+
+.backgroundred {
+	background: red;
+}
+
+.backgroundblue {
+	background: blue;
+}
+
+.borderrounded {
+	border: 1px solid;
+	padding: 10px;
+	border-radius: 50px;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input[type=text] {
+	padding: 25px;
+	margin: 15px 15px;
+}
+
+input[type=tel] {
+	padding: 10px;
+	margin: 15px 15px;
+}
